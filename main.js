@@ -74,3 +74,8 @@ options.forEach((option,index) =>{
 })
 infoContainer.appendChild(select); //appends select to infoContainer variable 
 
+
+// result part  
+const result = document.createElement("p");
+result.textContent = "Your answer is ";
+catObject.appendChild(result);
