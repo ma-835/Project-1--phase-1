@@ -27,7 +27,9 @@ const question = document.createElement("figcaption")  // creates question, seco
  //Image attribute 
  const catImage = document.createElement("img") //  creates catImages, third attribute
  catImage.src = cat.Image // links Image(key) of cats to src attribute of catImage . 
-
+ console.log(catImage)
+ catObject.classList.add("catImage") // adds catImage className to catObject variable
+ 
 
 
 
