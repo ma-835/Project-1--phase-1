@@ -68,7 +68,8 @@ const options = ["True", "False", "I don't know"]; // creates options variable
 
 options.forEach((option,index) =>{
   const optionElement = document.createElement("option"); // creates optionElement variable 
-
-
+  optionElement.value = `${options[index]}`;
+  optionElement.textContent = option; 
+  select.appendChild(optionElement); // append optionElement to select variable 
 }
 
