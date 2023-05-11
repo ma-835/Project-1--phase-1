@@ -60,5 +60,15 @@ catObject.classList.add("revealButton") // adds revealButton className to catObj
 const infoContainer = document.createElement("div"); // creates infoContainer variable 
 infoContainer.classList.add("infoContainer"); // adds infoContainer className to infoContainer variable
 
+// select part 
+const select = document.createElement("select"); // creates select variable 
+select.id = `dropdown-${cat.id}`; 
 
+const options = ["True", "False", "I don't know"]; // creates options variable 
+
+options.forEach((option,index) =>{
+  const optionElement = document.createElement("option"); // creates optionElement variable 
+
+
+}
 
