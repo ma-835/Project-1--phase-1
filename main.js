@@ -38,8 +38,12 @@ fact.style.display = "none"
 catObject.classList.add("fact") // adds fact className to catObject variable
 
 
-// Sound part 
+// Sound and RevealButton part 
 const sound = document.getElementById("sound") // creates sound variable 
+sound.style.display = "none"
+const revealButton = document.createElement("button")  // createsrevealButton variable 
+
+
 
 
 
