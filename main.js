@@ -33,6 +33,7 @@ const question = document.createElement("figcaption")  // creates question, seco
 
  //fact part
 const fact = document.createElement("p") // creates fact , fourth attribute 
+fact.textContent = cat.Fact  // links Fact(key) of cats to textContent attribute fact . 
 
 
 
