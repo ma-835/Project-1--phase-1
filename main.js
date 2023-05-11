@@ -86,3 +86,6 @@ change = select.addEventListener("change", (event) => {
   console.log(result)
   result.style.color = "yellow"
 })
+
+// append variables 
+catObject.appendChild(catName) // appends catName to catObject 
