@@ -55,6 +55,8 @@ revealButton.addEventListener("click",function () { // adds eventListener functi
     revealButton.style.background = "green"
     })
 }
- 
+
+revealButton.textContent = "Reveal answer" // adds a textContent attribute to revealButton variable
+
 
 
