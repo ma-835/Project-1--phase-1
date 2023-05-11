@@ -31,6 +31,8 @@ const question = document.createElement("figcaption")  // creates question, seco
  catObject.classList.add("catImage") // adds catImage className to catObject variable
  
 
+ //fact part
+const fact = document.createElement("p") // creates fact , fourth attribute 
 
 
 
