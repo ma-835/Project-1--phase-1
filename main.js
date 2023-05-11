@@ -40,13 +40,21 @@ catObject.classList.add("fact") // adds fact className to catObject variable
 
 // Sound and RevealButton part 
 const sound = document.getElementById("sound") // creates sound variable 
-sound.style.display = "none"
+sound.style.display = "none" // element is hidden
 const revealButton = document.createElement("button")  // createsrevealButton variable 
 
-
-
-
-
+revealButton.addEventListener("click",function () { // adds eventListener function (click) to button 
+    if (fact.style.display === "none") { 
+      fact.style.display = "block"
+    } else {
+      fact.style.display = "none"
+    }
+    sound.play()
+    sound.style.display = "none"
+    revealButton.textContent = "AnswerRevealed!"
+    revealButton.style.background = "green"
+    })
+}
  
 
 
