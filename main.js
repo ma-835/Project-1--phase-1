@@ -57,6 +57,7 @@ revealButton.addEventListener("click",function () { // adds eventListener functi
 }
 
 revealButton.textContent = "Reveal answer" // adds a textContent attribute to revealButton variable
+catObject.classList.add("revealButton") // adds revealButton className to catObject variable
 
 
 
