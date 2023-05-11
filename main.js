@@ -22,7 +22,13 @@ const question = document.createElement("figcaption")  // creates question, seco
  // links Question (key) of cats to textContent attribute of question . 
  console.log(question)
  catObject.classList.add("question") // adds question className to catObject variable
- 
+
+
+ //Image attribute 
+ const catImage = document.createElement("img") //  creates catImages, third attribute
+ catImage.src = cat.Image // links Image(key) of cats to src attribute of catImage . 
+
+
 
 
 
