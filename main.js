@@ -76,6 +76,13 @@ infoContainer.appendChild(select); //appends select to infoContainer variable
 
 
 // result part  
-const result = document.createElement("p");
+const result = document.createElement("p"); // creates result variable and appends the variabel to catObject 
 result.textContent = "Your answer is ";
-catObject.appendChild(result);
+catObject.appendChild(result); 
+
+// adds eventlistener(change) to select variable 
+change = select.addEventListener("change", (event) => { 
+  result.textContent = `Your answer is ${event.target.value}`
+  console.log(result)
+  result.style.color = "yellow"
+})
