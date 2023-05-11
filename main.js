@@ -7,6 +7,11 @@ fetch(`http://localhost:3000/cats`)
 
 
 
+function renderCat(cat) {
+const container = document.querySelector('.container'); // creates container variable
+
+
+
  
 
 
