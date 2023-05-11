@@ -38,6 +38,8 @@ fact.style.display = "none"
 catObject.classList.add("fact") // adds fact className to catObject variable
 
 
+// Sound part 
+const sound = document.getElementById("sound") // creates sound variable 
 
 
 
