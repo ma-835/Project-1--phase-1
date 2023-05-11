@@ -20,6 +20,9 @@ const question = document.createElement("figcaption")  // creates question, seco
  // catQuestion is the second attribute of cat
  question.textContent = cat.Question 
  // links Question (key) of cats to textContent attribute of question . 
+ console.log(question)
+ catObject.classList.add("question") // adds question className to catObject variable
+ 
 
 
 
