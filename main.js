@@ -91,3 +91,9 @@ change = select.addEventListener("change", (event) => {
 catObject.appendChild(catName) // appends catName to catObject 
 catObject.appendChild(question)  //appends question to catObject 
 catObject.appendChild(catImage)//appends catImage to catObject 
+catObject.appendChild(revealButton) // appends revealButton , result , fact and infoContainer
+catObject.appendChild(result)
+catObject.appendChild(fact)
+catObject.appendChild(infoContainer);
+container.appendChild(catObject);
+container.append(catObject)
