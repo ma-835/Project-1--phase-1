@@ -58,7 +58,7 @@ catObject.classList.add("revealButton") // adds revealButton className to catObj
 
 // infoContainer part 
 const infoContainer = document.createElement("div"); // creates infoContainer variable 
-
+infoContainer.classList.add("infoContainer"); // adds infoContainer className to infoContainer variable
 
 
 
