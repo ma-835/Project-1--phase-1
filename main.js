@@ -12,6 +12,9 @@ const container = document.querySelector('.container'); // creates container var
 const catObject= document.createElement('div') // creates catObject variable
 const catName = document.createElement("h2") // creates catName, first attribute
 catName.textContent=cat.Name  // links Name(key) of cats to textContent attribute of CatName 
+console.log(catName) 
+catObject.classList.add("catName") // adds catName className to catObject variable
+
 
 
 
