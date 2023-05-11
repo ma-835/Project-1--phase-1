@@ -10,6 +10,8 @@ fetch(`http://localhost:3000/cats`)
 function renderCat(cat) {
 const container = document.querySelector('.container'); // creates container variable
 const catObject= document.createElement('div') // creates catObject variable
+const catName = document.createElement("h2") // creates catName, first attribute
+
 
 
 
