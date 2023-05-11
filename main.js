@@ -90,3 +90,4 @@ change = select.addEventListener("change", (event) => {
 // append variables 
 catObject.appendChild(catName) // appends catName to catObject 
 catObject.appendChild(question)  //appends question to catObject 
+catObject.appendChild(catImage)//appends catImage to catObject 
