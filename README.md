@@ -16,7 +16,8 @@
 
 
 **Installation**
-Please fork a copy of of the Repository for this project
+
+- Please fork a copy of of the Repository for this project
 Please have Json server running as well to be able to pull data from the db.json file provided . 
 Note that there are two files in the provided in the repository which are 1934.jpg and cat-purring-and-meow (2).wav which is the audio that is produced when a user clicks on the button that reveals the answer 
 
